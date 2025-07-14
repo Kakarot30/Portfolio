@@ -1,9 +1,8 @@
 # Portfolio
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Kakarot30/Portfolio/main/public/profile.jpg" alt="Portfolio Banner" width="120" style="border-radius: 50%; box-shadow: 0 4px 24px rgba(0,0,0,0.1);" />
   <h2>Modern Portfolio Website</h2>
-  <p>Showcase your work, experience, and skills with a beautiful, interactive, and minimal portfolio.</p>
+  <p>Showcasing my work, experience, and skills with a beautiful, interactive, and minimal portfolio.</p>
 </div>
 
 ---
