@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -47,16 +47,16 @@ export const gridItems = [
     spareImg: "/b4.svg",
   },
 
-  {
-    id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
+  // {
+  //   id: 5,
+  //   title: "Currently building a JS Animation library",
+  //   description: "The Inside Scoop",
+  //   className: "md:col-span-3 md:row-span-2",
+  //   imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+  //   titleClassName: "justify-center md:justify-start lg:justify-center",
+  //   img: "/b5.svg",
+  //   spareImg: "/grid.svg",
+  // },
   {
     id: 6,
     title: "Do you want to start a project together?",
@@ -72,36 +72,46 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "WanderWorld ",
+    des: "A website that helps travelers discover unique stays and accommodations around the globe.",
+    img: "/project1.png",
+    iconLists: [
+      "/html5.svg",
+      "/css3.svg",
+      "/js.svg",
+      "/node.svg",
+      "/mongodb.svg",
+    ],
+    link: "https://wanderworld-l6vd.onrender.com/",
+    github: "https://github.com/yourusername/wanderworld",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "Ai-Bill Splitting ",
+    des: "Track shared expenses, split bills effortlessly, and settle up quickly with friends and family.",
+    img: "/project2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gemini.svg", "/c.svg"],
     link: "/ui.yoom.com",
+    github: "https://github.com/yourusername/yoom",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    title: "AI Teaching SaaS",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    img: "/project3.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg", "/c.svg"],
     link: "/ui.aiimg.com",
+    github: "https://github.com/yourusername/ai-image-saas",
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  //   github: "https://github.com/yourusername/apple-3d-website",
+  // },
 ];
 
 export const testimonials = [
@@ -180,15 +190,15 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "AI Agent Architect",
+    desc: "Designed and developed AI-driven solutions for various applications, focusing on natural language processing and user interaction.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Full Stack Developer",
+    desc: " Produced and created a full-stack web platform featuring dynamic user authentication, listings, and booking functionalities.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
@@ -214,4 +224,19 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
   },
+];
+
+export const techStack = [
+  { src: "/html5.svg", name: "HTML5" },
+  { src: "/css3.svg", name: "CSS3" },
+  { src: "/js.svg", name: "JavaScript" },
+  { src: "/re.svg", name: "React" },
+  { src: "/next.svg", name: "Next.js" },
+  { src: "/tail.svg", name: "Tailwind CSS" },
+  { src: "/ts.svg", name: "TypeScript" },
+  { src: "/fm.svg", name: "Framer Motion" },
+  { src: "/mongodb.svg", name: "MongoDB" },
+  { src: "/node.svg", name: "Node.js" },
+  { src: "/express.svg", name: "Express.js" },
+  // Add or remove as needed
 ];

@@ -1,13 +1,13 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaGithub } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
@@ -18,10 +18,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
-            >
+            <PinContainer href={item.link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -32,7 +29,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute top-0 left-0 w-full h-full object-cover object-top"
                 />
               </div>
 
@@ -65,11 +62,27 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                <div className="flex justify-center items-center gap-4">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex lg:text-xl md:text-xs text-sm text-purple items-center gap-2"
+                  >
                     Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </a>
+                  {item.github && (
+                    <a
+                      href={item.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-300 hover:text-white text-xl"
+                      title="View on GitHub"
+                    >
+                      <FaGithub style={{ fontSize: "2rem" }} />
+                    </a>
+                  )}
                 </div>
               </div>
             </PinContainer>
