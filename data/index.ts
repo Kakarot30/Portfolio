@@ -72,7 +72,17 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "WanderWorld ",
+    title: "Ai-Bill Splitting ",
+    des: "Track shared expenses, split bills effortlessly, and settle up quickly with friends and family.",
+    img: "/project2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gemini.svg", "/c.svg"],
+    link: "https://ai-bill-splitting.vercel.app/",
+    github: "https://github.com/Kakarot30/AI-Bill-Splitting-",
+  },
+
+  {
+    id: 2,
+    title: "WanderEarth ",
     des: "A website that helps travelers discover unique stays and accommodations around the globe.",
     img: "/project1.png",
     iconLists: [
@@ -83,17 +93,9 @@ export const projects = [
       "/mongodb.svg",
     ],
     link: "https://wanderworld-l6vd.onrender.com/",
-    github: "https://github.com/yourusername/wanderworld",
+    github: "https://github.com/Kakarot30/WanderEarth",
   },
-  {
-    id: 2,
-    title: "Ai-Bill Splitting ",
-    des: "Track shared expenses, split bills effortlessly, and settle up quickly with friends and family.",
-    img: "/project2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gemini.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-    github: "https://github.com/yourusername/yoom",
-  },
+
   {
     id: 3,
     title: "AI Teaching SaaS",
