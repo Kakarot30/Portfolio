@@ -1,7 +1,7 @@
 # Portfolio
 
 <div align="center">
-  <h2>Modern Portfolio Website</h2>
+  <h2>Modern Portfolio</h2>
   <p>Showcasing my work, experience, and skills with a beautiful, interactive, and minimal portfolio.</p>
 </div>
 
